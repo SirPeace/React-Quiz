@@ -1,0 +1,36 @@
+.Quiz {
+  background-image: linear-gradient(
+    0deg,
+    rgb(0, 112, 163) 0%,
+    rgb(110, 178, 223) 100%
+  );
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-grow: 1;
+  width: 100%;
+  padding-top: 100px;
+  padding-bottom: 10px;
+
+  @media (max-width: 750px) {
+    padding-top: 70px;
+  }
+
+  h1 {
+    color: #fff;
+    margin-bottom: 20px;
+
+    @media (max-width: 750px) {
+      font-size: 7vw;
+    }
+  }
+}
+
+.ActiveQuizWrapper {
+  width: 70vw;
+}
+@media (max-width: 750px) {
+  .ActiveQuizWrapper {
+    width: 95vw;
+  }
+}

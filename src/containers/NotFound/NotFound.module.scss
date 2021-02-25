@@ -1,0 +1,17 @@
+@import "../QuizList/QuizList.module.scss";
+
+.NotFound {
+  p {
+    color: #fff;
+    font-size: 20px;
+  }
+
+  h1 {
+    font-size: 120px;
+  }
+
+  .link {
+    display: block;
+    margin-top: 10px;
+  }
+}

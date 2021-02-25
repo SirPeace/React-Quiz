@@ -1,0 +1,48 @@
+.Input {
+  margin-bottom: 15px;
+
+  &.invalid {
+    input {
+      border-color: crimson;
+
+      &:focus {
+        border-color: crimson;
+      }
+    }
+
+    label {
+      color: crimson;
+    }
+  }
+
+  input,
+  textarea {
+    height: 40px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #bebebe;
+    outline: none;
+
+    &:focus {
+      border-color: #000;
+    }
+  }
+
+  textarea {
+    height: 100px;
+    resize: vertical;
+    font-size: 14px;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 3px;
+  }
+
+  small {
+    margin-top: 2px;
+    color: crimson;
+    font-weight: bold;
+  }
+}

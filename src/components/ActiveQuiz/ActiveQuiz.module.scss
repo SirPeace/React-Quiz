@@ -1,0 +1,27 @@
+.ActiveQuiz {
+  padding: 20px;
+  color: #fff;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  margin: 0 10px;
+
+  .question {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+
+    h2 {
+      font-size: 20px;
+      @media (max-width: 750px) {
+        font-size: 18px;
+      }
+    }
+
+    span {
+      font-size: 14px;
+      text-align: right;
+      min-width: 25%;
+      max-width: 50%;
+    }
+  }
+}
